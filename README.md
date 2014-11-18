@@ -385,5 +385,5 @@ distributed under the License is distributed on an "AS IS" BASIS,<br>
 WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.<br>
 See the License for the specific language governing permissions and<br>
 limitations under the License.<br>
-By Using this application you fully agree to all licence poit an take full<br>
+By Using this application you fully agree to all licence points an take full<br>
 responsability of its use.
