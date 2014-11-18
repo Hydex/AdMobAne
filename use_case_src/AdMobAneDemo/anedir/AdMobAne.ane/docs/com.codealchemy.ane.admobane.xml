@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?><apiPackage id="com.codealchemy.ane.admobane"><apiName>com.codealchemy.ane.admobane</apiName><apiDetail/><apiClassifier id="com.codealchemy.ane.admobane:AdSize"><apiName>AdSize</apiName><shortdesc>
+	 AdSize Class
+	 The class will construct and manage the In Ad Sizes
+	 
+	 </shortdesc><prolog><author>Code Alchemy
+	 </author><asMetadata/></prolog><apiClassifierDetail><apiClassifierDef><apiAccess value="public"/><apiStatic/><apiFinal/><apiBaseClassifier>Object</apiBaseClassifier></apiClassifierDef><apiDesc>
+	 AdSize Class
+	 The class will construct and manage the In Ad Sizes
+	 
+	 </apiDesc></apiClassifierDetail><apiConstructor id="com.codealchemy.ane.admobane:AdSize:AdSize"><apiName>AdSize</apiName><shortdesc/><prolog/><apiConstructorDetail><apiConstructorDef><apiAccess value="public"/></apiConstructorDef></apiConstructorDetail></apiConstructor><apiValue id="com.codealchemy.ane.admobane:AdSize:height"><apiName>height</apiName><shortdesc/><prolog/><apiValueDetail><apiValueDef><apiProperty/><apiAccess value="public"/><apiDynamic/><apiType value="int"/></apiValueDef></apiValueDetail></apiValue><apiValue id="com.codealchemy.ane.admobane:AdSize:width"><apiName>width</apiName><shortdesc/><prolog/><apiValueDetail><apiValueDef><apiProperty/><apiAccess value="public"/><apiDynamic/><apiType value="int"/></apiValueDef></apiValueDetail></apiValue></apiClassifier><apiClassifier id="com.codealchemy.ane.admobane:ScreenSize"><apiName>ScreenSize</apiName><shortdesc>
+	 ScreenSize Class
+	 The class will construct and manage the In Screen Sizes
+	 
+	 </shortdesc><prolog><author>Code Alchemy
+	 </author><asMetadata/></prolog><apiClassifierDetail><apiClassifierDef><apiAccess value="public"/><apiStatic/><apiFinal/><apiBaseClassifier>Object</apiBaseClassifier></apiClassifierDef><apiDesc>
+	 ScreenSize Class
+	 The class will construct and manage the In Screen Sizes
+	 
+	 </apiDesc></apiClassifierDetail><apiConstructor id="com.codealchemy.ane.admobane:ScreenSize:ScreenSize"><apiName>ScreenSize</apiName><shortdesc/><prolog/><apiConstructorDetail><apiConstructorDef><apiAccess value="public"/></apiConstructorDef></apiConstructorDetail></apiConstructor><apiValue id="com.codealchemy.ane.admobane:ScreenSize:height"><apiName>height</apiName><shortdesc/><prolog/><apiValueDetail><apiValueDef><apiProperty/><apiAccess value="public"/><apiDynamic/><apiType value="int"/></apiValueDef></apiValueDetail></apiValue><apiValue id="com.codealchemy.ane.admobane:ScreenSize:width"><apiName>width</apiName><shortdesc/><prolog/><apiValueDetail><apiValueDef><apiProperty/><apiAccess value="public"/><apiDynamic/><apiType value="int"/></apiValueDef></apiValueDetail></apiValue></apiClassifier><apiClassifier id="com.codealchemy.ane.admobane:AdMobEvent"><apiName>AdMobEvent</apiName><shortdesc>
+	 AdMobEvent Class
+	 The class will construct and manage the AdMob ANE Events
+	 
+	 </shortdesc><prolog><author>Code Alchemy
+	 </author><asMetadata/></prolog><apiClassifierDetail><apiClassifierDef><apiAccess value="public"/><apiStatic/><apiFinal/><apiBaseClassifier>flash.events:Event</apiBaseClassifier></apiClassifierDef><apiDesc>
+	 AdMobEvent Class
+	 The class will construct and manage the AdMob ANE Events
+	 
+	 </apiDesc></apiClassifierDetail><apiConstructor id="com.codealchemy.ane.admobane:AdMobEvent:AdMobEvent"><apiName>AdMobEvent</apiName><shortdesc>
+		 AdMobAne Event Constructor
+		 </shortdesc><prolog/><apiConstructorDetail><apiConstructorDef><apiAccess value="public"/><apiParam><apiItemName>type</apiItemName><apiType value="String"/></apiParam><apiParam><apiItemName>data</apiItemName><apiType value="String"/><apiData>null</apiData></apiParam><apiParam><apiItemName>bubbles</apiItemName><apiType value="Boolean"/><apiData>false</apiData></apiParam><apiParam><apiItemName>cancelable</apiItemName><apiType value="Boolean"/><apiData>false</apiData></apiParam></apiConstructorDef><apiDesc>
+		 AdMobAne Event Constructor
+		 </apiDesc></apiConstructorDetail></apiConstructor><apiValue id="com.codealchemy.ane.admobane:AdMobEvent:BANNER_AD_CLOSED"><apiName>BANNER_AD_CLOSED</apiName><shortdesc/><prolog/><apiValueDetail><apiValueDef><apiAccess value="public"/><apiStatic/><apiData>onBannerAdClosed</apiData><apiType value="String"/></apiValueDef></apiValueDetail></apiValue><apiValue id="com.codealchemy.ane.admobane:AdMobEvent:BANNER_AD_OPENED"><apiName>BANNER_AD_OPENED</apiName><shortdesc/><prolog/><apiValueDetail><apiValueDef><apiAccess value="public"/><apiStatic/><apiData>onBannerAdOpened</apiData><apiType value="String"/></apiValueDef></apiValueDetail></apiValue><apiValue id="com.codealchemy.ane.admobane:AdMobEvent:BANNER_FAILED_TO_LOAD"><apiName>BANNER_FAILED_TO_LOAD</apiName><shortdesc/><prolog/><apiValueDetail><apiValueDef><apiAccess value="public"/><apiStatic/><apiData>onBannerFailedToLoad</apiData><apiType value="String"/></apiValueDef></apiValueDetail></apiValue><apiValue id="com.codealchemy.ane.admobane:AdMobEvent:BANNER_LEFT_APPLICATION"><apiName>BANNER_LEFT_APPLICATION</apiName><shortdesc/><prolog/><apiValueDetail><apiValueDef><apiAccess value="public"/><apiStatic/><apiData>onBannerLeftApplication</apiData><apiType value="String"/></apiValueDef></apiValueDetail></apiValue><apiValue id="com.codealchemy.ane.admobane:AdMobEvent:BANNER_LOADED"><apiName>BANNER_LOADED</apiName><shortdesc/><prolog/><apiValueDetail><apiValueDef><apiAccess value="public"/><apiStatic/><apiData>onBannerLoaded</apiData><apiType value="String"/></apiValueDef></apiValueDetail></apiValue><apiValue id="com.codealchemy.ane.admobane:AdMobEvent:INTERSTITIAL_AD_CLOSED"><apiName>INTERSTITIAL_AD_CLOSED</apiName><shortdesc/><prolog/><apiValueDetail><apiValueDef><apiAccess value="public"/><apiStatic/><apiData>onInterstitialAdClosed</apiData><apiType value="String"/></apiValueDef></apiValueDetail></apiValue><apiValue id="com.codealchemy.ane.admobane:AdMobEvent:INTERSTITIAL_AD_OPENED"><apiName>INTERSTITIAL_AD_OPENED</apiName><shortdesc/><prolog/><apiValueDetail><apiValueDef><apiAccess value="public"/><apiStatic/><apiData>onInterstitialAdOpened</apiData><apiType value="String"/></apiValueDef></apiValueDetail></apiValue><apiValue id="com.codealchemy.ane.admobane:AdMobEvent:INTERSTITIAL_FAILED_TO_LOAD"><apiName>INTERSTITIAL_FAILED_TO_LOAD</apiName><shortdesc/><prolog/><apiValueDetail><apiValueDef><apiAccess value="public"/><apiStatic/><apiData>onInterstitialFailedToLoad</apiData><apiType value="String"/></apiValueDef></apiValueDetail></apiValue><apiValue id="com.codealchemy.ane.admobane:AdMobEvent:INTERSTITIAL_LEFT_APPLICATION"><apiName>INTERSTITIAL_LEFT_APPLICATION</apiName><shortdesc/><prolog/><apiValueDetail><apiValueDef><apiAccess value="public"/><apiStatic/><apiData>onInterstitialLeftApplication</apiData><apiType value="String"/></apiValueDef></apiValueDetail></apiValue><apiValue id="com.codealchemy.ane.admobane:AdMobEvent:INTERSTITIAL_LOADED"><apiName>INTERSTITIAL_LOADED</apiName><shortdesc/><prolog/><apiValueDetail><apiValueDef><apiAccess value="public"/><apiStatic/><apiData>onInterstitialLoaded</apiData><apiType value="String"/></apiValueDef></apiValueDetail></apiValue><apiValue id="com.codealchemy.ane.admobane:AdMobEvent:data"><apiName>data</apiName><shortdesc/><prolog/><apiValueDetail><apiValueDef><apiProperty/><apiAccess value="public"/><apiDynamic/><apiType value="String"/></apiValueDef></apiValueDetail></apiValue></apiClassifier><apiClassifier id="com.codealchemy.ane.admobane:AdMobManager"><apiName>AdMobManager</apiName><shortdesc> 
+	 AdMobManager Class
+	 The class will construct and manage the AdMobManager
+	 
+	 </shortdesc><prolog><author>Code Alchemy
+	 </author><asMetadata/></prolog><apiClassifierDetail><apiClassifierDef><apiAccess value="public"/><apiStatic/><apiFinal/><apiBaseClassifier>flash.events:EventDispatcher</apiBaseClassifier></apiClassifierDef><apiDesc> 
+	 AdMobManager Class
+	 The class will construct and manage the AdMobManager
+	 
+	 </apiDesc></apiClassifierDetail><apiConstructor id="com.codealchemy.ane.admobane:AdMobManager:AdMobManager"><apiName>AdMobManager</apiName><shortdesc> 
+		 AdMobManager Constructor
+		 
+		 </shortdesc><prolog/><apiConstructorDetail><apiConstructorDef><apiAccess value="public"/></apiConstructorDef><apiDesc> 
+		 AdMobManager Constructor
+		 
+		 </apiDesc></apiConstructorDetail></apiConstructor><apiOperation id="com.codealchemy.ane.admobane:AdMobManager:cacheInterstitial"><apiName>cacheInterstitial</apiName><shortdesc> 
+		 Cache the Interstitial
+		 Listent to Event INTERSTITIAL_RECIEVED for know when the caching is complet
+		 After the Interstitial is recieved you can use also the public method isInterstitialLoaded for check
+		 if the Interstitial is ready to be visualized.
+		 
+		 </shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiFinal/><apiReturn><apiType value="void"/></apiReturn><apiParam><apiItemName>adMobId</apiItemName><apiType value="String"/><apiData>null</apiData><apiDesc>Unique AdMobId for the Interstitial. Optional, if an id is not given the common Id will be used
+		 </apiDesc></apiParam></apiOperationDef><apiDesc> 
+		 Cache the Interstitial
+		 Listent to Event <codeph>INTERSTITIAL_RECIEVED</codeph> for know when the caching is complet
+		 After the Interstitial is recieved you can use also the public method <codeph>isInterstitialLoaded</codeph> for check
+		 if the Interstitial is ready to be visualized.
+		 
+		 </apiDesc></apiOperationDetail></apiOperation><apiOperation id="com.codealchemy.ane.admobane:AdMobManager:createBannerAbsolute"><apiName>createBannerAbsolute</apiName><shortdesc> 
+		 Create the adMob Banner in a given absolute position
+		 
+		 </shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiFinal/><apiReturn><apiType value="void"/></apiReturn><apiParam><apiItemName>adSize</apiItemName><apiType value="int"/><apiDesc>Banner AdmobSize to be used
+		 </apiDesc></apiParam><apiParam><apiItemName>posX</apiItemName><apiType value="Number"/><apiDesc>Banner x coordinate Position
+		 </apiDesc></apiParam><apiParam><apiItemName>posY</apiItemName><apiType value="Number"/><apiDesc>Banner y coordinate Position
+		 </apiDesc></apiParam><apiParam><apiItemName>bannerId</apiItemName><apiType value="String"/><apiData>null</apiData><apiDesc>Unique Banner Id identifier, used for identifie the banner when multiple banner
+		 are use in the same application. (please note, this is not the adMobId). Optional, if an id is not given an automatic id is generated
+		 </apiDesc></apiParam><apiParam><apiItemName>adMobId</apiItemName><apiType value="String"/><apiData>null</apiData><apiDesc>Unique AdMobId for the banner. Optional, if an id is not given the common Id will be used
+		 </apiDesc></apiParam><apiParam><apiItemName>autoShow</apiItemName><apiType value="Boolean"/><apiData>false</apiData><apiDesc>Automatic visualization. Optional, Default = false
+		 If the autoShow is set to true the banner will be automatically render when is recieved, otherwise will need to be render manualy
+		 After BANNER_RECIEVED event.
+		 </apiDesc></apiParam></apiOperationDef><apiDesc> 
+		 Create the adMob Banner in a given absolute position
+		 
+		 </apiDesc></apiOperationDetail></apiOperation><apiOperation id="com.codealchemy.ane.admobane:AdMobManager:createBanner"><apiName>createBanner</apiName><shortdesc> 
+		 Create the adMob Banner in relative position
+		 </shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiFinal/><apiReturn><apiType value="void"/></apiReturn><apiParam><apiItemName>adSize</apiItemName><apiType value="int"/><apiDesc>Banner AdmobSize to be used
+		 </apiDesc></apiParam><apiParam><apiItemName>adPosition</apiItemName><apiType value="int"/><apiDesc>Banner Position to be used
+		 </apiDesc></apiParam><apiParam><apiItemName>bannerId</apiItemName><apiType value="String"/><apiData>null</apiData><apiDesc>Unique Banner Id identifier, used for identifie the banner when multiple banner
+		 are use in the same application. (please note, this is not the adMobId). Optional, if an id is not given an automatic id is generated
+		 </apiDesc></apiParam><apiParam><apiItemName>adMobId</apiItemName><apiType value="String"/><apiData>null</apiData><apiDesc>Unique AdMobId for the banner. Optional, if an id is not given the common Id will be used
+		 </apiDesc></apiParam><apiParam><apiItemName>autoShow</apiItemName><apiType value="Boolean"/><apiData>false</apiData><apiDesc>Automatic visualization. Optional, Default = false
+		 If the autoShow is set to true the banner will be automatically render when is recieved, otherwise will need to be render manualy
+		 After BANNER_RECIEVED event.
+		 </apiDesc></apiParam></apiOperationDef><apiDesc> 
+		 Create the adMob Banner in relative position
+		 </apiDesc></apiOperationDetail><related-links><link href="" invalidHref="com.codealchemy.ane.admobane.AdmobPosition.xml"><linktext>AdmobPosition</linktext></link><link href="com.codealchemy.ane.admobane.xml#AdMobSize"><linktext>AdMobSize</linktext></link></related-links></apiOperation><apiOperation id="com.codealchemy.ane.admobane:AdMobManager:createInterstitial"><apiName>createInterstitial</apiName><shortdesc> 
+		 Create the Interstitial
+		 
+		 </shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiFinal/><apiReturn><apiType value="void"/></apiReturn><apiParam><apiItemName>adMobId</apiItemName><apiType value="String"/><apiData>null</apiData><apiDesc>Unique AdMobId for the Interstitial. Optional, if an id is not given the common Id will be used
+		 </apiDesc></apiParam><apiParam><apiItemName>autoShow</apiItemName><apiType value="Boolean"/><apiData>false</apiData><apiDesc>Automatic visualization. Optional, Default = false
+		 If the autoShow is set to true the Interstitial will be automatically render when ready, otherwise will need to be render manualy
+		 After INTERSTITIAL_RECIEVED event.
+		 </apiDesc></apiParam></apiOperationDef><apiDesc> 
+		 Create the Interstitial
+		 
+		 </apiDesc></apiOperationDetail></apiOperation><apiOperation id="com.codealchemy.ane.admobane:AdMobManager:dispose"><apiName>dispose</apiName><shortdesc> 
+		 AdMobManager Disposal
+		 
+		 </shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiFinal/><apiReturn><apiType value="void"/></apiReturn></apiOperationDef><apiDesc> 
+		 AdMobManager Disposal
+		 
+		 </apiDesc></apiOperationDetail></apiOperation><apiOperation id="com.codealchemy.ane.admobane:AdMobManager:getBannerSize"><apiName>getBannerSize</apiName><shortdesc> 
+		 Get the Banner Dimension (Base Dimensions)
+		 For measure already created banners use getExistingBannerSize instead.</shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiFinal/><apiReturn><apiDesc>Banner Dimension Object. Null if the given size is incorrect
+		 </apiDesc><apiOperationClassifier>com.codealchemy.ane.admobane:AdSize</apiOperationClassifier></apiReturn><apiParam><apiItemName>adSize</apiItemName><apiType value="int"/><apiDesc>Banner AdmobSize to be used
+		 
+		 </apiDesc></apiParam></apiOperationDef><apiDesc> 
+		 Get the Banner Dimension (Base Dimensions)
+		 For measure already created banners use <codeph>getExistingBannerSize</codeph> instead.
+		 
+		 </apiDesc></apiOperationDetail></apiOperation><apiOperation id="com.codealchemy.ane.admobane:AdMobManager:getExistingBannerSize"><apiName>getExistingBannerSize</apiName><shortdesc> 
+		 Get the Banner Dimension for an existing Banner
+		 For get the standard banner size use getBannerSize instead.</shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiFinal/><apiReturn><apiDesc>Banner Dimension Object. Null if the given banner is incorrect
+		 </apiDesc><apiOperationClassifier>com.codealchemy.ane.admobane:AdSize</apiOperationClassifier></apiReturn><apiParam><apiItemName>bannerId</apiItemName><apiType value="String"/><apiDesc>Unique Banner Id identifier, used for identifie the banner when multiple banner
+		 are use in the same application. (please note, this is not the adMobId). Optional, if an id is not given an automatic id is generated
+		 
+		 </apiDesc></apiParam></apiOperationDef><apiDesc> 
+		 Get the Banner Dimension for an existing Banner
+		 For get the standard banner size use <codeph>getBannerSize</codeph> instead.
+		 
+		 </apiDesc></apiOperationDetail></apiOperation><apiOperation id="com.codealchemy.ane.admobane:AdMobManager:getScreenSize"><apiName>getScreenSize</apiName><shortdesc> 
+		 Get the Screen Native Dimensions
+		 
+		 </shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiFinal/><apiReturn><apiDesc>Screen Dimension Object. Null if the given size is incorrect
+		 </apiDesc><apiOperationClassifier>com.codealchemy.ane.admobane:ScreenSize</apiOperationClassifier></apiReturn></apiOperationDef><apiDesc> 
+		 Get the Screen Native Dimensions
+		 
+		 </apiDesc></apiOperationDetail></apiOperation><apiOperation id="com.codealchemy.ane.admobane:AdMobManager:hideAllBanner"><apiName>hideAllBanner</apiName><shortdesc> 
+		 Hide all the created banners
+		 
+		 </shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiFinal/><apiReturn><apiType value="void"/></apiReturn></apiOperationDef><apiDesc> 
+		 Hide all the created banners
+		 
+		 </apiDesc></apiOperationDetail></apiOperation><apiOperation id="com.codealchemy.ane.admobane:AdMobManager:hideBanner"><apiName>hideBanner</apiName><shortdesc> 
+		 Hide a specific Banner
+		 
+		 </shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiFinal/><apiReturn><apiType value="void"/></apiReturn><apiParam><apiItemName>bannerId</apiItemName><apiType value="String"/><apiDesc>Unique Banner Id identifier for the banner to be hide.
+		 Please note, this is not the adMobId.
+		 If you are not sure about which id the banner has, please access <codeph>bannersNames</codeph>
+		 For a full list of created banners id
+		 </apiDesc></apiParam></apiOperationDef><apiDesc> 
+		 Hide a specific Banner
+		 
+		 </apiDesc></apiOperationDetail></apiOperation><apiOperation id="com.codealchemy.ane.admobane:AdMobManager:isInterstitialLoaded"><apiName>isInterstitialLoaded</apiName><shortdesc> 
+		 Check if the Interstitial is ready to be visualize.
+		 Please note that checking this status before creating the Interstitial or recieving its Event INTERSTITIAL_RECIEVED will make nosense.</shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiFinal/><apiReturn><apiType value="Boolean"/></apiReturn></apiOperationDef><apiDesc> 
+		 Check if the Interstitial is ready to be visualize.
+		 Please note that checking this status before creating the Interstitial or recieving its Event <codeph>INTERSTITIAL_RECIEVED</codeph> will make nosense.
+		 
+		 </apiDesc></apiOperationDetail></apiOperation><apiOperation id="com.codealchemy.ane.admobane:AdMobManager:moveBanner"><apiName>moveBanner</apiName><shortdesc> 
+		 Move a specific Banner
+		 
+		 </shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiFinal/><apiReturn><apiType value="void"/></apiReturn><apiParam><apiItemName>bannerId</apiItemName><apiType value="String"/><apiDesc>Unique Banner Id identifier for the banner to be moved.
+		 Please note, this is not the adMobId.
+		 If you are not sure about which id the banner has, please access <codeph>bannersNames</codeph>
+		 For a full list of created banners id
+		 </apiDesc></apiParam><apiParam><apiItemName>posX</apiItemName><apiType value="Number"/><apiDesc>Banner x coordinate Position
+		 </apiDesc></apiParam><apiParam><apiItemName>posY</apiItemName><apiType value="Number"/><apiDesc>Banner y coordinate Position
+		 </apiDesc></apiParam></apiOperationDef><apiDesc> 
+		 Move a specific Banner
+		 
+		 </apiDesc></apiOperationDetail></apiOperation><apiOperation id="com.codealchemy.ane.admobane:AdMobManager:removeAllBanner"><apiName>removeAllBanner</apiName><shortdesc> 
+		 Remove all the created banners
+		 ...</shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiFinal/><apiReturn><apiType value="void"/></apiReturn></apiOperationDef><apiDesc> 
+		 Remove all the created banners
+		 ... use with caution...
+		 
+		 </apiDesc></apiOperationDetail></apiOperation><apiOperation id="com.codealchemy.ane.admobane:AdMobManager:removeBanner"><apiName>removeBanner</apiName><shortdesc> 
+		 Remove a specific Banner
+		 
+		 </shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiFinal/><apiReturn><apiType value="void"/></apiReturn><apiParam><apiItemName>bannerId</apiItemName><apiType value="String"/><apiDesc>Unique Banner Id identifier for the banner to be hide.
+		 Please note, this is not the adMobId.
+		 If you are not sure about which id the banner has, please access <codeph>bannersNames</codeph>
+		 For a full list of created banners id.
+		 
+		 IMPORTANT: Removing a banner it means completly destroy the banner and its requests.
+		 A removed banner cannot be show again and it will need to be created again.
+		 use with caution...
+		 </apiDesc></apiParam></apiOperationDef><apiDesc> 
+		 Remove a specific Banner
+		 
+		 </apiDesc></apiOperationDetail></apiOperation><apiOperation id="com.codealchemy.ane.admobane:AdMobManager:removeInterstitial"><apiName>removeInterstitial</apiName><shortdesc> 
+		 Remove the Interstitial
+		 
+		 </shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiFinal/><apiReturn><apiType value="void"/></apiReturn></apiOperationDef><apiDesc> 
+		 Remove the Interstitial
+		 
+		 </apiDesc></apiOperationDetail></apiOperation><apiOperation id="com.codealchemy.ane.admobane:AdMobManager:rotateBanner"><apiName>rotateBanner</apiName><shortdesc> 
+		 Rotate a specific Banner
+		 
+		 </shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiFinal/><apiReturn><apiType value="void"/></apiReturn><apiParam><apiItemName>bannerId</apiItemName><apiType value="String"/><apiDesc>Unique Banner Id identifier for the banner to be rotated.
+		 Please note, this is not the adMobId.
+		 If you are not sure about which id the banner has, please access <codeph>bannersNames</codeph>
+		 For a full list of created banners id
+		 </apiDesc></apiParam><apiParam><apiItemName>angle</apiItemName><apiType value="Number"/><apiDesc>Angle in degrees in which the must must be rotated
+		 </apiDesc></apiParam></apiOperationDef><apiDesc> 
+		 Rotate a specific Banner
+		 
+		 </apiDesc></apiOperationDetail></apiOperation><apiOperation id="com.codealchemy.ane.admobane:AdMobManager:showAllBanner"><apiName>showAllBanner</apiName><shortdesc> 
+		 Show all the created banners
+		 
+		 </shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiFinal/><apiReturn><apiType value="void"/></apiReturn></apiOperationDef><apiDesc> 
+		 Show all the created banners
+		 
+		 </apiDesc></apiOperationDetail></apiOperation><apiOperation id="com.codealchemy.ane.admobane:AdMobManager:showBanner"><apiName>showBanner</apiName><shortdesc> 
+		 Show a specific Banner
+		 
+		 </shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiFinal/><apiReturn><apiType value="void"/></apiReturn><apiParam><apiItemName>bannerId</apiItemName><apiType value="String"/><apiDesc>Unique Banner Id identifier for the banner to be show.
+		 Please note, this is not the adMobId.
+		 If you are not sure about which id the banner has, please access <codeph>bannersNames</codeph>
+		 For a full list of created banners id
+		 </apiDesc></apiParam></apiOperationDef><apiDesc> 
+		 Show a specific Banner
+		 
+		 </apiDesc></apiOperationDetail></apiOperation><apiOperation id="com.codealchemy.ane.admobane:AdMobManager:showInterstitial"><apiName>showInterstitial</apiName><shortdesc> 
+		 Show the Interstitial.
+		 Please note that a Interstitial cannot be show if it was never created or recieved.</shortdesc><prolog/><apiOperationDetail><apiOperationDef><apiAccess value="public"/><apiFinal/><apiReturn><apiType value="void"/></apiReturn></apiOperationDef><apiDesc> 
+		 Show the Interstitial.
+		 Please note that a Interstitial cannot be show if it was never created or recieved.
+		 
+		 </apiDesc></apiOperationDetail></apiOperation><apiValue id="com.codealchemy.ane.admobane:AdMobManager:ANDROID"><apiName>ANDROID</apiName><shortdesc/><prolog/><apiValueDetail><apiValueDef><apiAccess value="public"/><apiStatic/><apiData>Android</apiData><apiType value="String"/></apiValueDef></apiValueDetail></apiValue><apiValue id="com.codealchemy.ane.admobane:AdMobManager:GENDER_FEMALE"><apiName>GENDER_FEMALE</apiName><shortdesc/><prolog/><apiValueDetail><apiValueDef><apiAccess value="public"/><apiStatic/><apiData>2</apiData><apiType value="int"/></apiValueDef></apiValueDetail></apiValue><apiValue id="com.codealchemy.ane.admobane:AdMobManager:GENDER_MALE"><apiName>GENDER_MALE</apiName><shortdesc/><prolog/><apiValueDetail><apiValueDef><apiAccess value="public"/><apiStatic/><apiData>1</apiData><apiType value="int"/></apiValueDef></apiValueDetail></apiValue><apiValue id="com.codealchemy.ane.admobane:AdMobManager:GENDER_UNDEFINED"><apiName>GENDER_UNDEFINED</apiName><shortdesc/><prolog/><apiValueDetail><apiValueDef><apiAccess value="public"/><apiStatic/><apiData>0</apiData><apiType value="int"/></apiValueDef></apiValueDetail></apiValue><apiValue id="com.codealchemy.ane.admobane:AdMobManager:IOS"><apiName>IOS</apiName><shortdesc/><prolog/><apiValueDetail><apiValueDef><apiAccess value="public"/><apiStatic/><apiData>iOS</apiData><apiType value="String"/></apiValueDef></apiValueDetail></apiValue><apiValue id="com.codealchemy.ane.admobane:AdMobManager:PROD_MODE"><apiName>PROD_MODE</apiName><shortdesc/><prolog/><apiValueDetail><apiValueDef><apiAccess value="public"/><apiStatic/><apiData>true</apiData><apiType value="Boolean"/></apiValueDef></apiValueDetail></apiValue><apiValue id="com.codealchemy.ane.admobane:AdMobManager:RENDER_TYPE_HARDWARE"><apiName>RENDER_TYPE_HARDWARE</apiName><shortdesc/><prolog/><apiValueDetail><apiValueDef><apiAccess value="public"/><apiStatic/><apiData>2</apiData><apiType value="int"/></apiValueDef></apiValueDetail></apiValue><apiValue id="com.codealchemy.ane.admobane:AdMobManager:RENDER_TYPE_NONE"><apiName>RENDER_TYPE_NONE</apiName><shortdesc/><prolog/><apiValueDetail><apiValueDef><apiAccess value="public"/><apiStatic/><apiData>0</apiData><apiType value="int"/></apiValueDef></apiValueDetail></apiValue><apiValue id="com.codealchemy.ane.admobane:AdMobManager:RENDER_TYPE_SOFTWARE"><apiName>RENDER_TYPE_SOFTWARE</apiName><shortdesc/><prolog/><apiValueDetail><apiValueDef><apiAccess value="public"/><apiStatic/><apiData>1</apiData><apiType value="int"/></apiValueDef></apiValueDetail></apiValue><apiValue id="com.codealchemy.ane.admobane:AdMobManager:TEST_MODE"><apiName>TEST_MODE</apiName><shortdesc/><prolog/><apiValueDetail><apiValueDef><apiAccess value="public"/><apiStatic/><apiData>false</apiData><apiType value="Boolean"/></apiValueDef></apiValueDetail></apiValue><apiValue id="com.codealchemy.ane.admobane:AdMobManager:bannersAdMobId:get"><apiName>bannersAdMobId</apiName><shortdesc>
+		 Banners AdMob Unit ID
+		 </shortdesc><prolog/><apiValueDetail><apiValueDef><apiProperty/><apiAccess value="public"/><apiDynamic/><apiValueAccess value="readwrite"/><apiType value="String"/></apiValueDef><apiDesc>
+		 Banners AdMob Unit ID
+		 </apiDesc></apiValueDetail></apiValue><apiValue id="com.codealchemy.ane.admobane:AdMobManager:bannersNames:get"><apiName>bannersNames</apiName><shortdesc> 
+		 Currently available Banners names
+		 </shortdesc><prolog/><apiValueDetail><apiValueDef><apiProperty/><apiAccess value="public"/><apiDynamic/><apiValueAccess value="read"/><apiType value="Array"/></apiValueDef><apiDesc> 
+		 Currently available Banners names
+		 </apiDesc></apiValueDetail></apiValue><apiValue id="com.codealchemy.ane.admobane:AdMobManager:bannersQuantity:get"><apiName>bannersQuantity</apiName><shortdesc> 
+		 Currently available Banners Quantity
+		 </shortdesc><prolog/><apiValueDetail><apiValueDef><apiProperty/><apiAccess value="public"/><apiDynamic/><apiValueAccess value="read"/><apiType value="int"/></apiValueDef><apiDesc> 
+		 Currently available Banners Quantity
+		 </apiDesc></apiValueDetail></apiValue><apiValue id="com.codealchemy.ane.admobane:AdMobManager:birthDay:get"><apiName>birthDay</apiName><shortdesc>
+		 Targeting Birth Day
+		 
+		 </shortdesc><prolog/><apiValueDetail><apiValueDef><apiProperty/><apiAccess value="public"/><apiDynamic/><apiValueAccess value="readwrite"/><apiType value="int"/></apiValueDef><apiDesc>
+		 Targeting Birth Day
+		 
+		 </apiDesc></apiValueDetail></apiValue><apiValue id="com.codealchemy.ane.admobane:AdMobManager:birthMonth:get"><apiName>birthMonth</apiName><shortdesc>
+		 Targeting Birth Month
+		 
+		 </shortdesc><prolog/><apiValueDetail><apiValueDef><apiProperty/><apiAccess value="public"/><apiDynamic/><apiValueAccess value="readwrite"/><apiType value="int"/></apiValueDef><apiDesc>
+		 Targeting Birth Month
+		 
+		 </apiDesc></apiValueDetail></apiValue><apiValue id="com.codealchemy.ane.admobane:AdMobManager:birthYear:get"><apiName>birthYear</apiName><shortdesc>
+		 Targeting Birth Year
+		 
+		 </shortdesc><prolog/><apiValueDetail><apiValueDef><apiProperty/><apiAccess value="public"/><apiDynamic/><apiValueAccess value="readwrite"/><apiType value="int"/></apiValueDef><apiDesc>
+		 Targeting Birth Year
+		 
+		 </apiDesc></apiValueDetail></apiValue><apiValue id="com.codealchemy.ane.admobane:AdMobManager:device:get"><apiName>device</apiName><shortdesc> 
+		 Device in use
+		 </shortdesc><prolog/><apiValueDetail><apiValueDef><apiProperty/><apiAccess value="public"/><apiDynamic/><apiValueAccess value="read"/><apiType value="String"/></apiValueDef><apiDesc> 
+		 Device in use
+		 </apiDesc></apiValueDetail></apiValue><apiValue id="com.codealchemy.ane.admobane:AdMobManager:dispatcher:get"><apiName>dispatcher</apiName><shortdesc> 
+		 Extension event Dispatcher
+		 </shortdesc><prolog/><apiValueDetail><apiValueDef><apiProperty/><apiAccess value="public"/><apiDynamic/><apiValueAccess value="read"/><apiType value="flash.events:EventDispatcher"/></apiValueDef><apiDesc> 
+		 Extension event Dispatcher
+		 </apiDesc></apiValueDetail></apiValue><apiValue id="com.codealchemy.ane.admobane:AdMobManager:gender:get"><apiName>gender</apiName><shortdesc>
+		 Targeting Gender
+		 </shortdesc><prolog/><apiValueDetail><apiValueDef><apiProperty/><apiAccess value="public"/><apiDynamic/><apiValueAccess value="readwrite"/><apiType value="int"/></apiValueDef><apiDesc>
+		 Targeting Gender
+		 </apiDesc></apiValueDetail></apiValue><apiValue id="com.codealchemy.ane.admobane:AdMobManager:interstitialAdMobId:get"><apiName>interstitialAdMobId</apiName><shortdesc>
+		 Interstitial AdMob Unit ID
+		 </shortdesc><prolog/><apiValueDetail><apiValueDef><apiProperty/><apiAccess value="public"/><apiDynamic/><apiValueAccess value="readwrite"/><apiType value="String"/></apiValueDef><apiDesc>
+		 Interstitial AdMob Unit ID
+		 </apiDesc></apiValueDetail></apiValue><apiValue id="com.codealchemy.ane.admobane:AdMobManager:isCDT:get"><apiName>isCDT</apiName><shortdesc>
+		 Targeting Tag For Child Directed Treatment
+		 </shortdesc><prolog/><apiValueDetail><apiValueDef><apiProperty/><apiAccess value="public"/><apiDynamic/><apiValueAccess value="readwrite"/><apiType value="Boolean"/></apiValueDef><apiDesc>
+		 Targeting Tag For Child Directed Treatment
+		 </apiDesc></apiValueDetail></apiValue><apiValue id="com.codealchemy.ane.admobane:AdMobManager:isSupported:get"><apiName>isSupported</apiName><shortdesc>
+		 Extension support state
+		 </shortdesc><prolog/><apiValueDetail><apiValueDef><apiProperty/><apiAccess value="public"/><apiDynamic/><apiValueAccess value="read"/><apiType value="Boolean"/></apiValueDef><apiDesc>
+		 Extension support state
+		 </apiDesc></apiValueDetail></apiValue><apiValue id="com.codealchemy.ane.admobane:AdMobManager:manager:get"><apiName>manager</apiName><shortdesc>
+		 Extension context Instance
+		 </shortdesc><prolog/><apiValueDetail><apiValueDef><apiProperty/><apiAccess value="public"/><apiStatic/><apiValueAccess value="read"/><apiValueClassifier>com.codealchemy.ane.admobane:AdMobManager</apiValueClassifier></apiValueDef><apiDesc>
+		 Extension context Instance
+		 </apiDesc></apiValueDetail></apiValue><apiValue id="com.codealchemy.ane.admobane:AdMobManager:operationMode:get"><apiName>operationMode</apiName><shortdesc>
+		 Extension Operation Mode
+		 </shortdesc><prolog/><apiValueDetail><apiValueDef><apiProperty/><apiAccess value="public"/><apiDynamic/><apiValueAccess value="readwrite"/><apiType value="Boolean"/></apiValueDef><apiDesc>
+		 Extension Operation Mode
+		 </apiDesc></apiValueDetail></apiValue><apiValue id="com.codealchemy.ane.admobane:AdMobManager:renderLayerType:get"><apiName>renderLayerType</apiName><shortdesc>
+		 Rendering Layer Type
+		 
+		 </shortdesc><prolog/><apiValueDetail><apiValueDef><apiProperty/><apiAccess value="public"/><apiDynamic/><apiValueAccess value="readwrite"/><apiType value="int"/></apiValueDef><apiDesc>
+		 Rendering Layer Type
+		 
+		 </apiDesc></apiValueDetail></apiValue><apiValue id="com.codealchemy.ane.admobane:AdMobManager:testDeviceID:get"><apiName>testDeviceID</apiName><shortdesc>
+		 Device ID for Testing
+		 </shortdesc><prolog/><apiValueDetail><apiValueDef><apiProperty/><apiAccess value="public"/><apiDynamic/><apiValueAccess value="readwrite"/><apiType value="String"/></apiValueDef><apiDesc>
+		 Device ID for Testing
+		 </apiDesc></apiValueDetail></apiValue><apiValue id="com.codealchemy.ane.admobane:AdMobManager:verbose:get"><apiName>verbose</apiName><shortdesc>
+		 Extension Verbose Mode
+		 </shortdesc><prolog/><apiValueDetail><apiValueDef><apiProperty/><apiAccess value="public"/><apiDynamic/><apiValueAccess value="readwrite"/><apiType value="Boolean"/></apiValueDef><apiDesc>
+		 Extension Verbose Mode
+		 </apiDesc></apiValueDetail></apiValue></apiClassifier><apiClassifier id="com.codealchemy.ane.admobane:AdMobPosition"><apiName>AdMobPosition</apiName><shortdesc>
+	 AdmobPosition Class
+	 The class will construct and manage the AdMob Position
+	 
+	 </shortdesc><prolog><author>Code Alchemy
+	 </author><asMetadata/></prolog><apiClassifierDetail><apiClassifierDef><apiAccess value="public"/><apiStatic/><apiFinal/><apiBaseClassifier>Object</apiBaseClassifier></apiClassifierDef><apiDesc>
+	 AdmobPosition Class
+	 The class will construct and manage the AdMob Position
+	 
+	 </apiDesc></apiClassifierDetail><apiValue id="com.codealchemy.ane.admobane:AdMobPosition:BOTTOM_CENTER"><apiName>BOTTOM_CENTER</apiName><shortdesc/><prolog/><apiValueDetail><apiValueDef><apiAccess value="public"/><apiStatic/><apiData>8</apiData><apiType value="int"/></apiValueDef></apiValueDetail></apiValue><apiValue id="com.codealchemy.ane.admobane:AdMobPosition:BOTTOM_LEFT"><apiName>BOTTOM_LEFT</apiName><shortdesc/><prolog/><apiValueDetail><apiValueDef><apiAccess value="public"/><apiStatic/><apiData>7</apiData><apiType value="int"/></apiValueDef></apiValueDetail></apiValue><apiValue id="com.codealchemy.ane.admobane:AdMobPosition:BOTTOM_RIGHT"><apiName>BOTTOM_RIGHT</apiName><shortdesc/><prolog/><apiValueDetail><apiValueDef><apiAccess value="public"/><apiStatic/><apiData>9</apiData><apiType value="int"/></apiValueDef></apiValueDetail></apiValue><apiValue id="com.codealchemy.ane.admobane:AdMobPosition:MIDDLE_CENTER"><apiName>MIDDLE_CENTER</apiName><shortdesc/><prolog/><apiValueDetail><apiValueDef><apiAccess value="public"/><apiStatic/><apiData>5</apiData><apiType value="int"/></apiValueDef></apiValueDetail></apiValue><apiValue id="com.codealchemy.ane.admobane:AdMobPosition:MIDDLE_LEFT"><apiName>MIDDLE_LEFT</apiName><shortdesc/><prolog/><apiValueDetail><apiValueDef><apiAccess value="public"/><apiStatic/><apiData>4</apiData><apiType value="int"/></apiValueDef></apiValueDetail></apiValue><apiValue id="com.codealchemy.ane.admobane:AdMobPosition:MIDDLE_RIGHT"><apiName>MIDDLE_RIGHT</apiName><shortdesc/><prolog/><apiValueDetail><apiValueDef><apiAccess value="public"/><apiStatic/><apiData>6</apiData><apiType value="int"/></apiValueDef></apiValueDetail></apiValue><apiValue id="com.codealchemy.ane.admobane:AdMobPosition:TOP_CENTER"><apiName>TOP_CENTER</apiName><shortdesc/><prolog/><apiValueDetail><apiValueDef><apiAccess value="public"/><apiStatic/><apiData>2</apiData><apiType value="int"/></apiValueDef></apiValueDetail></apiValue><apiValue id="com.codealchemy.ane.admobane:AdMobPosition:TOP_LEFT"><apiName>TOP_LEFT</apiName><shortdesc/><prolog/><apiValueDetail><apiValueDef><apiAccess value="public"/><apiStatic/><apiData>1</apiData><apiType value="int"/></apiValueDef></apiValueDetail></apiValue><apiValue id="com.codealchemy.ane.admobane:AdMobPosition:TOP_RIGHT"><apiName>TOP_RIGHT</apiName><shortdesc/><prolog/><apiValueDetail><apiValueDef><apiAccess value="public"/><apiStatic/><apiData>3</apiData><apiType value="int"/></apiValueDef></apiValueDetail></apiValue></apiClassifier><apiClassifier id="com.codealchemy.ane.admobane:AdMobSize"><apiName>AdMobSize</apiName><shortdesc>
+	 AdMobSize Class
+	 The class will construct and manage the In Admob Banner Sizes
+	 
+	 </shortdesc><prolog><author>Code Alchemy
+	 </author><asMetadata/></prolog><apiClassifierDetail><apiClassifierDef><apiAccess value="public"/><apiStatic/><apiFinal/><apiBaseClassifier>Object</apiBaseClassifier></apiClassifierDef><apiDesc>
+	 AdMobSize Class
+	 The class will construct and manage the In Admob Banner Sizes
+	 
+	 </apiDesc></apiClassifierDetail><apiValue id="com.codealchemy.ane.admobane:AdMobSize:BANNER"><apiName>BANNER</apiName><shortdesc/><prolog/><apiValueDetail><apiValueDef><apiAccess value="public"/><apiStatic/><apiData>0</apiData><apiType value="int"/></apiValueDef></apiValueDetail></apiValue><apiValue id="com.codealchemy.ane.admobane:AdMobSize:FULL_BANNER"><apiName>FULL_BANNER</apiName><shortdesc/><prolog/><apiValueDetail><apiValueDef><apiAccess value="public"/><apiStatic/><apiData>3</apiData><apiType value="int"/></apiValueDef></apiValueDetail></apiValue><apiValue id="com.codealchemy.ane.admobane:AdMobSize:LARGE_BANNER"><apiName>LARGE_BANNER</apiName><shortdesc/><prolog/><apiValueDetail><apiValueDef><apiAccess value="public"/><apiStatic/><apiData>1</apiData><apiType value="int"/></apiValueDef></apiValueDetail></apiValue><apiValue id="com.codealchemy.ane.admobane:AdMobSize:LEADERBOARD"><apiName>LEADERBOARD</apiName><shortdesc/><prolog/><apiValueDetail><apiValueDef><apiAccess value="public"/><apiStatic/><apiData>4</apiData><apiType value="int"/></apiValueDef></apiValueDetail></apiValue><apiValue id="com.codealchemy.ane.admobane:AdMobSize:MEDIUM_RECTANGLE"><apiName>MEDIUM_RECTANGLE</apiName><shortdesc/><prolog/><apiValueDetail><apiValueDef><apiAccess value="public"/><apiStatic/><apiData>2</apiData><apiType value="int"/></apiValueDef></apiValueDetail></apiValue><apiValue id="com.codealchemy.ane.admobane:AdMobSize:SMART_BANNER_LAND"><apiName>SMART_BANNER_LAND</apiName><shortdesc/><prolog/><apiValueDetail><apiValueDef><apiAccess value="public"/><apiStatic/><apiData>8</apiData><apiType value="int"/></apiValueDef></apiValueDetail></apiValue><apiValue id="com.codealchemy.ane.admobane:AdMobSize:SMART_BANNER_PORT"><apiName>SMART_BANNER_PORT</apiName><shortdesc/><prolog/><apiValueDetail><apiValueDef><apiAccess value="public"/><apiStatic/><apiData>7</apiData><apiType value="int"/></apiValueDef></apiValueDetail></apiValue><apiValue id="com.codealchemy.ane.admobane:AdMobSize:SMART_BANNER"><apiName>SMART_BANNER</apiName><shortdesc/><prolog/><apiValueDetail><apiValueDef><apiAccess value="public"/><apiStatic/><apiData>6</apiData><apiType value="int"/></apiValueDef></apiValueDetail></apiValue><apiValue id="com.codealchemy.ane.admobane:AdMobSize:com.codealchemy.ane.admobane:WIDE_SKYSCRAPER"><apiName>WIDE_SKYSCRAPER</apiName><shortdesc/><prolog/><apiValueDetail><apiValueDef><apiAccess value="public"/><apiStatic/><apiData>5</apiData><apiType value="int"/></apiValueDef></apiValueDetail></apiValue></apiClassifier></apiPackage>

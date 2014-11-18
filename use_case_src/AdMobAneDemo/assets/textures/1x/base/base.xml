@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="base.png">
+    <SubTexture name="AdMobLogo" x="385" y="439" width="103" height="36" frameX="-4" frameY="-4" frameWidth="111" frameHeight="46"/>
+    <SubTexture name="ButtonBack_Down" x="2" y="485" width="320" height="22"/>
+    <SubTexture name="ButtonBack_Up" x="486" y="2" rotated="true" width="22" height="320"/>
+    <SubTexture name="ButtonBig_Down" x="277" y="395" width="228" height="42"/>
+    <SubTexture name="ButtonBig_Up" x="277" y="349" width="230" height="44"/>
+    <SubTexture name="ButtonSmall_Down" x="408" y="284" width="75" height="20"/>
+    <SubTexture name="ButtonSmall_Up" x="408" y="205" rotated="true" width="22" height="77"/>
+    <SubTexture name="CodeAlchemy" x="390" y="178" rotated="true" width="16" height="141" frameX="0" frameY="-26" frameWidth="149" frameHeight="46"/>
+    <SubTexture name="ConsoleLog" x="2" y="349" width="273" height="134"/>
+    <SubTexture name="CreditsWindow" x="2" y="2" width="306" height="345"/>
+    <SubTexture name="InputBox" x="428" y="477" width="58" height="18"/>
+    <SubTexture name="InputBoxFoc" x="432" y="205" rotated="true" width="18" height="58"/>
+    <SubTexture name="adFrame" x="310" y="2" rotated="true" width="50" height="320"/>
+    <SubTexture name="comboBox" x="310" y="324" width="174" height="18"/>
+    <SubTexture name="comboField" x="390" y="2" rotated="true" width="16" height="174"/>
+    <SubTexture name="selectorBkg" x="362" y="2" rotated="true" width="26" height="306"/>
+    <SubTexture name="selectorFrame" x="277" y="439" width="106" height="36"/>
+    <SubTexture name="selectorFrameBkg" x="324" y="477" width="102" height="32"/>
+    <SubTexture name="sliderBkg" x="408" y="2" rotated="true" width="13" height="201"/>
+    <SubTexture name="sliderBtn" x="452" y="2" rotated="true" width="21" height="43"/>
+    <SubTexture name="sliderFill" x="423" y="2" rotated="true" width="13" height="201"/>
+    <SubTexture name="toggleBkg" x="490" y="439" rotated="true" width="18" height="59"/>
+    <SubTexture name="toggleBtn" x="438" y="47" width="30" height="18"/>
+</TextureAtlas>

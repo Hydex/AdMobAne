@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding ="utf-8"?>
+<swc xmlns="http://www.adobe.com/flash/swccatalog/9">
+  <versions>
+    <swc version="1.2" />
+    <flex version="4.6.0" build="23201" minimumSupportedVersion="3.0.0" />
+  </versions>
+  <features>
+    <feature-script-deps />
+    <feature-files />
+  </features>
+  <libraries>
+    <library path="library.swf">
+      <script name="com/codealchemy/ane/admobane/AdMobManager" mod="1412484166670" signatureChecksum="1170172118" >
+        <def id="com.codealchemy.ane.admobane:AdMobManager" /> 
+        <dep id="com.codealchemy.ane.admobane:AdMobEvent" type="e" /> 
+        <dep id="trace" type="e" /> 
+        <dep id="Math" type="e" /> 
+        <dep id="flash.external:ExtensionContext" type="e" /> 
+        <dep id="com.codealchemy.ane.admobane:AdSize" type="e" /> 
+        <dep id="com.codealchemy.ane.admobane:AdMobSize" type="e" /> 
+        <dep id="flash.system:Capabilities" type="e" /> 
+        <dep id="com.codealchemy.ane.admobane:AdMobBanner" type="e" /> 
+        <dep id="com.codealchemy.ane.admobane:ScreenSize" type="e" /> 
+        <dep id="flash.events:StatusEvent" type="e" /> 
+        <dep id="com.codealchemy.ane.admobane:AdMobPosition" type="e" /> 
+        <dep id="com.codealchemy.ane.admobane:AdMobBuilder" type="e" /> 
+        <dep id="flash.utils:Dictionary" type="e" /> 
+        <dep id="com.codealchemy.ane.admobane:AdMobFunctions" type="e" /> 
+        <dep id="com.codealchemy.ane.admobane:AdMobEvent" type="s" /> 
+        <dep id="com.codealchemy.ane.admobane:AdSize" type="s" /> 
+        <dep id="com.codealchemy.ane.admobane:ScreenSize" type="s" /> 
+        <dep id="flash.events:StatusEvent" type="s" /> 
+        <dep id="com.codealchemy.ane.admobane:AdMobBanner" type="s" /> 
+        <dep id="flash.external:ExtensionContext" type="s" /> 
+        <dep id="flash.utils:Dictionary" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.events:EventDispatcher" type="i" /> 
+      </script>
+      <script name="com/codealchemy/ane/admobane/AdMobFunctions" mod="1412484079819" signatureChecksum="668494512" >
+        <def id="com.codealchemy.ane.admobane:AdMobFunctions" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/codealchemy/ane/admobane/AdSize" mod="1408522891993" signatureChecksum="4037553708" >
+        <def id="com.codealchemy.ane.admobane:AdSize" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/codealchemy/ane/admobane/ScreenSize" mod="1408522902153" signatureChecksum="2040803746" >
+        <def id="com.codealchemy.ane.admobane:ScreenSize" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/codealchemy/ane/admobane/AdMobPosition" mod="1408522792666" signatureChecksum="1865449042" >
+        <def id="com.codealchemy.ane.admobane:AdMobPosition" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/codealchemy/ane/admobane/AdMobSize" mod="1408546191863" signatureChecksum="3628433993" >
+        <def id="com.codealchemy.ane.admobane:AdMobSize" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/codealchemy/ane/admobane/AdMobBuilder" mod="1408713773131" signatureChecksum="300501679" >
+        <def id="com.codealchemy.ane.admobane:AdMobBuilder" /> 
+        <dep id="flash.utils:ByteArray" type="e" /> 
+        <dep id="flash.utils:ByteArray" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="_99f148bb677e6be746186cafcdf53741b76a7258781ba23322f9454f46a0aacf_flash_display_Sprite" mod="1412484240299" signatureChecksum="1629387353" >
+        <def id="_99f148bb677e6be746186cafcdf53741b76a7258781ba23322f9454f46a0aacf_flash_display_Sprite" /> 
+        <dep id="flash.system:Security" type="e" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.display:Sprite" type="i" /> 
+      </script>
+      <script name="com/codealchemy/ane/admobane/AdMobBanner" mod="1408714447623" signatureChecksum="748653287" >
+        <def id="com.codealchemy.ane.admobane:AdMobBanner" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/codealchemy/ane/admobane/AdMobEvent" mod="1408522589091" signatureChecksum="2927023919" >
+        <def id="com.codealchemy.ane.admobane:AdMobEvent" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.events:Event" type="i" /> 
+      </script>
+      <digests>
+        <digest type="SHA-256" signed="false" value="264738f2a86d798c055b32bf93b5481d24c63bb9843a86de8677c46d416aa21b"   />
+      </digests>
+    </library>
+  </libraries>
+  <files>
+  </files>
+</swc>

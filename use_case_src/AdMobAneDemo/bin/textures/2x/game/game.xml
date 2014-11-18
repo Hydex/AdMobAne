@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="game.png">
+    <SubTexture name="Mage" x="2" y="244" width="184" height="240" frameX="-28" frameY="0" frameWidth="240" frameHeight="240"/>
+    <SubTexture name="Virus" x="2" y="2" width="240" height="240"/>
+</TextureAtlas>
