@@ -75,7 +75,7 @@ When adding the ANE be sure to have the checkbox "Update Air Application Descrip
 If it is not selected make certain that the application Id is available in the Air Application Descriptor as follow:
 ```xml
 <extensions>
-	<extensionID>com.codealchemy.ane.admobane</extensionID>
+    <extensionID>com.codealchemy.ane.admobane</extensionID>
 </extensions>
 ```
 
@@ -370,8 +370,20 @@ Add the following settings in "application" tag.
 <activity android:name="com.google.android.gms.ads.AdActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" />
 ```
 
-<br>
-<br>
+##Use Information:
+When use this ANE extension please note the following:<br>
+1) The pre-builded ANE packages will share ten percent of the total revenue<br>
+to the developer of this ANE (Share percentage can be checked on the<br>
+application log). By using the pre-builded package you accept this<br>
+condition. The ANE package can also be compiled manually for avoid the<br>
+sharing the revenues using the provided source code.<br>
+2) The native source code available will always be based on an older<br>
+version compare to the pre-builded packages, therefore the functions<br>
+and ANE package from the source code and pre-builded packages<br>
+will never match.<br>
+When a new version is release then the source code is updated with the current version.
+
+##Copyrights:
 Copyright 2011-2015 Code Alchemy inc.<br>
 <br>
 Licensed under the Apache License, Version 2.0 (the "License");<br>
@@ -385,5 +397,5 @@ distributed under the License is distributed on an "AS IS" BASIS,<br>
 WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.<br>
 See the License for the specific language governing permissions and<br>
 limitations under the License.<br>
-By Using this application you fully agree to all licence points an take full<br>
-responsability of its use.
+By Using this application you fully agree to all license points an take full<br>
+responsibility of its use.
