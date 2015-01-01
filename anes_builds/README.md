@@ -1,10 +1,10 @@
 ANE Packages
 =========
 
-This are the latest ANE build packages version 1.7.9.
+This are the latest ANE build packages version 1.8.0.
 - SDK Used:<br>
 Android: Google Play services ver. 5.0<br>
-iOS: Admob SDK 6.12.0<br>
+iOS: Admob SDK 6.12.2<br>
 <br>
 This version is not compatible with iOS 4.3.<br>
 <br>

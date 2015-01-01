@@ -47,10 +47,10 @@ Example:
 ```
 
 
-All packages are update to the last build (version 1.7.9)
+All packages are update to the last build (version 1.8.0)
 - SDK Used:<br>
 Android: (not included)<br>
-iOS: Admob SDK 6.12.0<br>
+iOS: Admob SDK 6.12.2<br>
 <br>
 This version is not compatible with iOS 4.3.<br>
 <br>

@@ -1,10 +1,9 @@
 ##News:
-18/11/2014<br>
-Version update 1.7.9.<br>
-Added Banner Rotation Function<br>
-Fixed compatibility issue with iOS 8.0<br>
-Updated iOS SDK to 6.12.0<br>
-see: https://developers.google.com/mobile-ads-sdk/docs/admob/ios/rel-notes<br>
+01/01/2015<br>
+Version update 1.8.0.<br>
+Improved performance<br>
+Added automatic retry on failed request<br>
+Updated iOS SDK to 6.12.2<br>
 Please see the ReleaseNotes for full release details<br>
 
 Admob Native Extension for Adobe Air
@@ -19,7 +18,7 @@ Different Packages are available according to the application targets:
 
 ##Admob SDK Details
 - Android: Google Play services ver. 5.0
-- iOS: Admob SDK 6.12.0 (Admob SDK 6.8.0 in iOS 4.3 compatible version)
+- iOS: Admob SDK 6.12.2 (Admob SDK 6.8.0 in iOS 4.3 compatible version)
 
 ##Device Compatibility:
 Android: From version 2.3<br>

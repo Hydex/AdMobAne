@@ -1,12 +1,22 @@
 Admob ANE Release Notes
 =========
+##Version 1.8.0
+Improvement:<br>
+- General performance<br>
+- Added auto retry on failed requests<br>
+
+Core Updates:<br>
+- Updated iOS SDK to 6.12.2<br>
+
+Bug fixes:<br>
+- Fixed "iOS 8 compatibility" Bug
+
 ##Version 1.7.9
 Core Updates:<br>
 - Updated iOS SDK to 6.12.0<br>
 
 Bug fixes:<br>
 - Fixed "iOS 8 compatibility" Bug
-
 
 ##Version 1.7.8
 Enhancement:<br>
@@ -19,7 +29,6 @@ It is not supported by AdMob and it is only available in limited mediation netwo
 
 Bug fixes:<br>
 - Fixed "Inter Failed to Load" Bug
-
 
 ##Version 1.7.7
 New Features:<br>
