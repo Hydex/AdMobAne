@@ -10,23 +10,20 @@ package com.codealchemy.ane.admobane.functions;
 //Extension includes
 import com.codealchemy.ane.admobane.ExtensionContext;
 
-//Android Includes
-import android.app.Activity;
-
 //Adobe FRE Includes
 import com.adobe.fre.FREContext;
 import com.adobe.fre.FREFunction;
 import com.adobe.fre.FREObject;
 
 /**
- * Create Interstitial Function Class
- * Bridge AS called function to main extension function
- *
- * @author Code Alchemy
- */
-public class CreateInterstitial implements FREFunction {
+* Set Birth Month Function Class
+* Bridge AS called function to main extension function
+*
+* @author Code Alchemy
+*/
+public class SetBirthMonth implements FREFunction {
 	// Debug Tag
-	private static final String CLASS = "CreateInterstitial - ";
+	private static final String CLASS = "SetBirthMonth - ";
 
 	/**
 	 * Process the Call.
@@ -40,14 +37,13 @@ public class CreateInterstitial implements FREFunction {
 	public FREObject call(FREContext context, FREObject[] args) {
 		// Try to process the call
 		try {
-			// Get The Extension Context and Activity
+			// Get The Extension Context
 			ExtensionContext cnt	= (ExtensionContext) context;
-			Activity act			= context.getActivity();
 			cnt.log(CLASS+"call");
 			// Set the passed parameter
-			String interstitialId	= args[0].getAsString();
-			// Get the Extension context instance
-			cnt.createInterstitial(act,interstitialId);
+			int month 		= args[0].getAsInt();
+			// Update the context production mode
+			cnt.setBirthMonth(month);
 		} catch (Exception e) {
 			// Print the exception stack trace
 			e.printStackTrace();
